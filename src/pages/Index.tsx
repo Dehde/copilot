@@ -18,9 +18,9 @@ const Index = () => {
       <Navbar />
       <main className="relative">
         <Hero />
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-secondary/30">
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-secondary/30">
           <div className="container max-w-7xl mx-auto px-4 h-full flex items-end">
-            <h2 className="text-lg font-semibold tracking-wide text-primary uppercase bg-primary/10 px-4 py-2 rounded-full inline-block mb-4">
+            <h2 className="text-lg font-semibold tracking-wide text-primary uppercase bg-primary/10 px-4 py-2 rounded-full inline-block mb-2">
               Trusted by 500+ PM & CS Teams worldwide
             </h2>
           </div>

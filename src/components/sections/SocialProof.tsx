@@ -3,7 +3,7 @@ import { CircleCheck } from "lucide-react";
 
 const SocialProof = () => {
   return (
-    <section className="bg-secondary/30 py-24">
+    <section className="bg-secondary/30 py-16">
       <div className="container max-w-7xl mx-auto px-4">
         <div className="text-center space-y-12">
           <div className="grid gap-8 md:grid-cols-3">
