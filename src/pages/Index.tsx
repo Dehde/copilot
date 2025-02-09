@@ -9,7 +9,7 @@ const Index = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="container flex items-center justify-between h-16">
           <div className="flex items-center">
-            <a href="#" className="text-xl font-bold">SwiftOnboarder</a>
+            <a href="#" className="text-xl font-bold">Kalasar</a>
             <div className="hidden ml-10 space-x-4 md:flex">
               <a href="#solutions" className="nav-link">Solutions</a>
               <a href="#benefits" className="nav-link">Benefits</a>
@@ -104,6 +104,33 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Solution Overview */}
+      <section id="how-it-works" className="section bg-secondary/50">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center">See It in Action</h2>
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
+            <div className="space-y-6">
+              {solutionSteps.map((step, index) => (
+                <div key={index} className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-primary text-white">
+                    {index + 1}
+                  </div>
+                  <p className="text-lg">{step}</p>
+                </div>
+              ))}
+              <Button className="cta-button mt-8">
+                Start Your Free Trial
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </div>
+            <div className="bg-white rounded-lg p-4">
+              {/* Placeholder for GIF */}
+              <div className="aspect-video bg-muted rounded-lg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* More sections to be added in future iterations */}
     </div>
   );
@@ -136,4 +163,12 @@ const features = [
   }
 ];
 
+const solutionSteps = [
+  "Explain your product once to our AI.",
+  "Capture key UI elements via our Chrome Extension.",
+  "Watch our AI automatically create tours, checklists, and highlights.",
+  "Refine only if you want to personalize further—no coding needed."
+];
+
 export default Index;
+
