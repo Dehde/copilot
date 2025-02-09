@@ -11,6 +11,7 @@ import HowItWorks from "@/components/sections/HowItWorks";
 import Integrations from "@/components/sections/Integrations";
 import FAQ from "@/components/sections/FAQ";
 import CallToValue from "@/components/sections/CallToValue";
+import Pricing from "@/components/sections/Pricing";
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
         <Benefits />
         <HowItWorks />
         <Integrations />
+        <Pricing />
         <FAQ />
         <CallToValue />
       </main>
