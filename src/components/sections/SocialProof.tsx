@@ -6,10 +6,6 @@ const SocialProof = () => {
     <section className="bg-secondary/30 py-24">
       <div className="container max-w-7xl mx-auto px-4">
         <div className="text-center space-y-12">
-          <h2 className="text-lg font-semibold tracking-wide text-primary uppercase bg-primary/10 px-4 py-2 rounded-full inline-block">
-            Trusted by 500+ PM & CS Teams worldwide
-          </h2>
-          
           <div className="grid gap-8 md:grid-cols-3">
             <div className="feature-card group hover:scale-105 transition-all duration-300">
               <div className="flex justify-center">
