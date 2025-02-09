@@ -1,4 +1,3 @@
-
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -87,7 +86,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Features */}
+      {/* Features Section */}
       <section id="solutions" className="section">
         <div className="container">
           <h2 className="text-3xl font-bold text-center">
@@ -131,7 +130,157 @@ const Index = () => {
         </div>
       </section>
 
-      {/* More sections to be added in future iterations */}
+      {/* Stats & Credibility */}
+      <section className="section">
+        <div className="container">
+          <div className="grid gap-8 md:grid-cols-3">
+            <div className="feature-card">
+              <h3 className="text-2xl font-bold">90%</h3>
+              <p className="mt-2 text-muted-foreground">Setup reduction: go from months to 1 day</p>
+            </div>
+            <div className="feature-card">
+              <h3 className="text-2xl font-bold">90%</h3>
+              <p className="mt-2 text-muted-foreground">Maintenance cuts—avoid tour breakage forever</p>
+            </div>
+            <div className="feature-card">
+              <h3 className="text-2xl font-bold">500+</h3>
+              <p className="mt-2 text-muted-foreground">Global teams trust us to onboard faster</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits */}
+      <section id="benefits" className="section bg-secondary/50">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center">Why It Matters</h2>
+          <div className="mt-12 grid gap-8 md:grid-cols-3">
+            {benefits.map((benefit) => (
+              <div key={benefit.title} className="feature-card">
+                <h3 className="text-lg font-semibold">{benefit.title}</h3>
+                <p className="mt-2 text-muted-foreground">{benefit.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="section">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center">Step-by-Step Guide</h2>
+          <div className="mt-12 grid gap-8 md:grid-cols-4">
+            {howItWorks.map((step, index) => (
+              <div key={index} className="feature-card">
+                <div className="mb-4 w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white">
+                  {index + 1}
+                </div>
+                <h3 className="text-lg font-semibold">{step.title}</h3>
+                <p className="mt-2 text-muted-foreground">{step.description}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Button className="cta-button">
+              Start Your Free Trial
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Integrations */}
+      <section className="section bg-secondary/50">
+        <div className="container text-center">
+          <h2 className="text-3xl font-bold">Seamless Integrations</h2>
+          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+            Works with modern web frameworks—React, Vue, Angular, and more. No extra code or complex APIs needed.
+          </p>
+          <Button className="cta-button mt-8">
+            Explore Integrations
+            <ArrowRight className="w-4 h-4 ml-2" />
+          </Button>
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section id="faq" className="section">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center">Frequently Asked Questions</h2>
+          <div className="mt-12 max-w-3xl mx-auto space-y-6">
+            {faqs.map((faq, index) => (
+              <div key={index} className="feature-card">
+                <h3 className="text-lg font-semibold">{faq.question}</h3>
+                <p className="mt-2 text-muted-foreground">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <Button className="cta-button">
+              View All FAQs
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Call-To-Value */}
+      <section className="section bg-secondary/50">
+        <div className="container text-center">
+          <h2 className="heading">Ready to Onboard Users in Hours, Not Months?</h2>
+          <p className="subheading">
+            Join the growing community of PMs & CS teams slashing setup & maintenance by 90%.
+          </p>
+          <div className="mt-10">
+            <Button className="cta-button">
+              Start Your Free Trial
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+            <p className="mt-4 text-sm text-muted-foreground">
+              €500/month, no hidden fees, no coding required.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t">
+        <div className="container py-12">
+          <div className="grid gap-8 md:grid-cols-4">
+            <div>
+              <h3 className="text-lg font-semibold">Kalasar</h3>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Making user onboarding effortless with AI-powered solutions.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold">Quick Links</h3>
+              <ul className="mt-4 space-y-2">
+                <li><a href="#features" className="text-sm text-muted-foreground hover:text-foreground">Features</a></li>
+                <li><a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground">Pricing</a></li>
+                <li><a href="#faq" className="text-sm text-muted-foreground hover:text-foreground">FAQ</a></li>
+                <li><a href="#contact" className="text-sm text-muted-foreground hover:text-foreground">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold">Contact</h3>
+              <p className="mt-2 text-sm text-muted-foreground">
+                support@kalasar.com
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold">Legal</h3>
+              <ul className="mt-4 space-y-2">
+                <li><a href="#privacy" className="text-sm text-muted-foreground hover:text-foreground">Privacy Policy</a></li>
+                <li><a href="#terms" className="text-sm text-muted-foreground hover:text-foreground">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
+            © 2025 Kalasar – All rights reserved
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
@@ -170,5 +319,57 @@ const solutionSteps = [
   "Refine only if you want to personalize further—no coding needed."
 ];
 
-export default Index;
+const benefits = [
+  {
+    title: "No Coding Required",
+    description: "Business users, PMs, and CS teams manage tours effortlessly"
+  },
+  {
+    title: "Personalize at Scale",
+    description: "With setup and maintenance handled by AI, build multiple persona-specific tours"
+  },
+  {
+    title: "Reduce Errors & Friction",
+    description: "Automatic element tracking means fewer broken steps and frustrated users"
+  }
+];
 
+const howItWorks = [
+  {
+    title: "Install in Minutes",
+    description: "Add our lightweight snippet to your web app."
+  },
+  {
+    title: "Capture Your App",
+    description: "Use our Chrome Extension to record essential elements."
+  },
+  {
+    title: "AI Onboarding",
+    description: "Provide your core product details; let AI generate the tours."
+  },
+  {
+    title: "Edit & Launch",
+    description: "Publish instantly, with no coding or design hassles."
+  }
+];
+
+const faqs = [
+  {
+    question: "Is it really just 1 day to launch?",
+    answer: "Absolutely. Our AI automates 90% of the work—just confirm and publish."
+  },
+  {
+    question: "Do I need coding skills?",
+    answer: "None at all—PMs and CS teams can handle everything with ease."
+  },
+  {
+    question: "What if my UI changes?",
+    answer: "We keep track of element updates automatically—no tour breakages."
+  },
+  {
+    question: "What's in the €500/month plan?",
+    answer: "Unlimited tours, up to 100 onboardings per month, and ongoing AI maintenance."
+  }
+];
+
+export default Index;
