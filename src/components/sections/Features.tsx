@@ -6,28 +6,28 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "AI-Generated Content & Tours",
-    description: "Simply explain your product and desired onboarding flow to our AI agent. We'll transform your vision into engaging, professional tours automatically."
+    title: "Crisp, Minimal Tours",
+    description: "Start with the essentials. Give new users a short, clear path—no 30-step walkthroughs or clutter."
   },
   {
-    title: "Checklists & Q&A",
-    description: "Drive user engagement—keep new users on track with guided tasks and answers."
+    title: "Visual UI Guidance",
+    description: "Each step can point to the right place on the screen, so users never wonder, "Where do I click?""
   },
   {
-    title: "Automated Maintenance",
-    description: "Eliminate breakage—our AI tracks UI changes, so tours remain stable."
+    title: "Real-Time, Context-Aware Q&A",
+    description: "Let users ask questions mid-tour. Our AI answers exactly what they need, right on the spot."
   },
   {
-    title: "Fully Context Aware",
-    description: "Provide autonomous support that understands exactly what your users see and experience, helping them resolve unexpected problems in real-time."
+    title: "Instant AI Setup",
+    description: "Describe your product goals, and our AI builds your minimal tours automatically—goodbye lengthy configuration."
   },
   {
-    title: "A True User Copilot",
-    description: "More than just product tours—direct user attention, automate routine tasks, and provide solution engineering for a complete user assistance experience."
+    title: "Self-Updating & Future-Proof",
+    description: "If your interface changes, our AI updates selectors and steps. No more broken tours or manual fixes."
   },
   {
-    title: "Personalization at Scale",
-    description: "Create multiple persona-specific tours with AI-powered customization."
+    title: "A Continuous Copilot",
+    description: "Even after onboarding, the AI stays ready to guide, freeing you to focus on higher-level tasks."
   }
 ];
 
