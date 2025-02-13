@@ -3,14 +3,17 @@ import {
   Briefcase, 
   Building2, 
   CircuitBoard, 
-  Code2, 
   Database, 
   LineChart 
 } from "lucide-react";
 
 const SocialProof = () => {
   const companies = [
-    { name: "Linear", icon: Code2, color: "text-indigo-500" },
+    { 
+      name: "Linear", 
+      logo: "https://cdn.brandfetch.io/iduDa181eM/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B", 
+      color: "text-indigo-500" 
+    },
     { name: "Retool", icon: Database, color: "text-blue-500" },
     { name: "Vercel", icon: Building2, color: "text-slate-700" },
     { name: "Stripe", icon: LineChart, color: "text-purple-600" },
@@ -40,8 +43,16 @@ const SocialProof = () => {
                 key={index} 
                 className="flex flex-col items-center space-y-3 group hover:scale-105 transition-all duration-300"
               >
-                <div className="p-3 rounded-xl bg-white shadow-sm">
-                  <company.icon className={`w-10 h-10 ${company.color}`} />
+                <div className="p-3 rounded-xl bg-white shadow-sm w-16 h-16 flex items-center justify-center">
+                  {company.logo ? (
+                    <img 
+                      src={company.logo} 
+                      alt={`${company.name} logo`}
+                      className="w-12 h-12 object-contain"
+                    />
+                  ) : (
+                    <company.icon className={`w-10 h-10 ${company.color}`} />
+                  )}
                 </div>
                 <span className="text-sm font-semibold text-foreground/80 group-hover:text-primary transition-colors">
                   {company.name}
