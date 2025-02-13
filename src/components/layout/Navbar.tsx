@@ -9,9 +9,9 @@ const Navbar = () => {
         <div className="flex items-center">
           <a href="#" className="text-xl font-bold">Kalasar</a>
           <div className="hidden ml-10 space-x-4 md:flex">
-            <a href="#solutions" className="nav-link">Solutions</a>
+            <a href="#solutions" className="nav-link">Features</a>
             <a href="#benefits" className="nav-link">Benefits</a>
-            <a href="#how-it-works" className="nav-link">How It Works</a>
+            <a href="#how-it-works" className="nav-link">How to set it up</a>
             <a href="#pricing" className="nav-link">Pricing</a>
             <a href="#faq" className="nav-link">FAQ</a>
           </div>
