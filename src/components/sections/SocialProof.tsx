@@ -1,32 +1,49 @@
 
-import { Building2, Building, HomeIcon, Landmark, School2, Store } from "lucide-react";
+import { 
+  Briefcase, 
+  Building2, 
+  CircuitBoard, 
+  Code2, 
+  Database, 
+  LineChart 
+} from "lucide-react";
 
 const SocialProof = () => {
   const companies = [
-    { name: "TechFlow Systems", icon: Building2, color: "text-blue-500" },
-    { name: "InnoVista Corp", icon: Building, color: "text-green-500" },
-    { name: "EduSmart Academy", icon: School2, color: "text-purple-500" },
-    { name: "ProServe Solutions", icon: Store, color: "text-orange-500" },
-    { name: "HomeBase Analytics", icon: HomeIcon, color: "text-red-500" },
-    { name: "FinCore Enterprise", icon: Landmark, color: "text-teal-500" },
+    { name: "Linear", icon: Code2, color: "text-indigo-500" },
+    { name: "Retool", icon: Database, color: "text-blue-500" },
+    { name: "Vercel", icon: Building2, color: "text-slate-700" },
+    { name: "Stripe", icon: LineChart, color: "text-purple-600" },
+    { name: "GitLab", icon: CircuitBoard, color: "text-orange-600" },
+    { name: "Notion", icon: Briefcase, color: "text-gray-800" },
   ];
 
   return (
     <section className="bg-secondary/30 py-12">
       <div className="container max-w-7xl mx-auto px-4">
         <div className="text-center space-y-8">
-          <p className="text-lg text-muted-foreground">
-            Already helping product and customer success teams at
-          </p>
+          <div className="max-w-3xl mx-auto space-y-4">
+            <p className="text-xl font-medium text-foreground">
+              Companies that prioritize excellence in user experience
+            </p>
+            <p className="text-base text-muted-foreground italic">
+              "People think speed and quality are conflicts of interest. The opposite is true. Speed is a prerequisite to quality."
+            </p>
+            <p className="text-sm text-muted-foreground">
+              — Karri Saarinen, Co-founder & CEO at Linear
+            </p>
+          </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center mt-12">
             {companies.map((company, index) => (
               <div 
                 key={index} 
-                className="flex flex-col items-center space-y-2 group hover:scale-105 transition-all duration-300"
+                className="flex flex-col items-center space-y-3 group hover:scale-105 transition-all duration-300"
               >
-                <company.icon className={`w-12 h-12 ${company.color}`} />
-                <span className="text-sm font-medium text-muted-foreground group-hover:text-primary transition-colors">
+                <div className="p-3 rounded-xl bg-white shadow-sm">
+                  <company.icon className={`w-10 h-10 ${company.color}`} />
+                </div>
+                <span className="text-sm font-semibold text-foreground/80 group-hover:text-primary transition-colors">
                   {company.name}
                 </span>
               </div>
