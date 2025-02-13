@@ -14,7 +14,7 @@ const features: Feature[] = [
     description: 'Each step can point to the right place on the screen, so users never wonder, "Where do I click?"'
   },
   {
-    title: "Real-Time, Context-Aware Q&A",
+    title: "Q&A - AI-based, Realtime, Context-Aware",
     description: "Let users ask questions mid-tour. Our AI answers exactly what they need, right on the spot."
   },
   {
