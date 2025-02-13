@@ -12,7 +12,7 @@ const Hero = () => {
               Onboarding Your Users Will Love
             </span>
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mt-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/90 to-primary/80">
-              —in Hours, Not Months
+              - in Hours, Not Months
             </span>
           </h1>
           
