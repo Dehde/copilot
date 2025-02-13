@@ -50,10 +50,6 @@ const SocialProof = () => {
             ))}
           </div>
 
-          <p className="text-xl font-medium text-foreground">
-            Companies that prioritize excellence in user experience
-          </p>
-
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-base text-muted-foreground italic">
               "People think speed and quality are conflicts of interest. The opposite is true. Speed is a prerequisite to quality."
