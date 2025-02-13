@@ -22,12 +22,12 @@ const SocialProof = () => {
       logo: "https://cdn.brandfetch.io/id3V8wH0I2/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
     },
     { 
-      name: "Personio", 
-      logo: "https://cdn.brandfetch.io/id_JbCGhPE/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
-    },
-    { 
       name: "Flowers Software", 
       logo: "https://cdn.brandfetch.io/idppoB5bqW/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+    },
+    { 
+      name: "Personio", 
+      logo: "https://cdn.brandfetch.io/id_JbCGhPE/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
     }
   ];
 
@@ -35,10 +35,6 @@ const SocialProof = () => {
     <section className="bg-secondary/30 py-12">
       <div className="container max-w-7xl mx-auto px-4">
         <div className="text-center space-y-12">
-          <p className="text-xl font-medium text-foreground">
-            Companies that prioritize excellence in user experience
-          </p>
-          
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 items-center justify-items-center">
             {logos.map((company, index) => (
               <div 
@@ -53,6 +49,10 @@ const SocialProof = () => {
               </div>
             ))}
           </div>
+
+          <p className="text-xl font-medium text-foreground">
+            Companies that prioritize excellence in user experience
+          </p>
 
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-base text-muted-foreground italic">
