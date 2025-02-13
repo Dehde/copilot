@@ -1,8 +1,9 @@
 
 const Stats = () => {
   return (
-    <section className="section">
+    <section className="section bg-secondary/50">
       <div className="container">
+        <h2 className="text-3xl font-bold text-center mb-12">Benefits</h2>
         <div className="grid gap-8 md:grid-cols-3">
           <div className="feature-card">
             <h3 className="text-2xl font-bold">85% less setup time</h3>
