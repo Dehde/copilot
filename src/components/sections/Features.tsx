@@ -11,7 +11,7 @@ const features: Feature[] = [
   },
   {
     title: "Visual UI Guidance",
-    description: "Each step can point to the right place on the screen, so users never wonder, "Where do I click?""
+    description: 'Each step can point to the right place on the screen, so users never wonder, "Where do I click?"'
   },
   {
     title: "Real-Time, Context-Aware Q&A",
