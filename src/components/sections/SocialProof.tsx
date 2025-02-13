@@ -30,7 +30,7 @@ const SocialProof = () => {
               "People think speed and quality are conflicts of interest. The opposite is true. Speed is a prerequisite to quality."
             </p>
             <p className="text-sm text-muted-foreground">
-              — Karri Saarinen, Co-founder & CEO at Linear
+              — Nan Yu, Head of Product at Linear
             </p>
           </div>
           
