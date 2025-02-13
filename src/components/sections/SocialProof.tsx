@@ -8,17 +8,27 @@ import {
 } from "lucide-react";
 
 const SocialProof = () => {
-  const companies = [
+  const logos = [
     { 
       name: "Linear", 
-      logo: "https://cdn.brandfetch.io/iduDa181eM/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B", 
-      color: "text-indigo-500" 
+      logo: "https://cdn.brandfetch.io/iduDa181eM/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
     },
-    { name: "Retool", icon: Database, color: "text-blue-500" },
-    { name: "Vercel", icon: Building2, color: "text-slate-700" },
-    { name: "Stripe", icon: LineChart, color: "text-purple-600" },
-    { name: "GitLab", icon: CircuitBoard, color: "text-orange-600" },
-    { name: "Notion", icon: Briefcase, color: "text-gray-800" },
+    { 
+      name: "Linear", 
+      logo: "https://cdn.brandfetch.io/iduDa181eM/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+    },
+    { 
+      name: "Linear", 
+      logo: "https://cdn.brandfetch.io/iduDa181eM/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+    },
+    { 
+      name: "Stripe", 
+      logo: "https://cdn.brandfetch.io/idxAg10C0L/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+    },
+    { 
+      name: "Stripe", 
+      logo: "https://cdn.brandfetch.io/idxAg10C0L/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+    }
   ];
 
   return (
@@ -37,26 +47,17 @@ const SocialProof = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center mt-12">
-            {companies.map((company, index) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 items-center justify-items-center mt-12">
+            {logos.map((company, index) => (
               <div 
                 key={index} 
-                className="flex flex-col items-center space-y-3 group hover:scale-105 transition-all duration-300"
+                className="w-32 h-20 flex items-center justify-center group hover:scale-105 transition-all duration-300"
               >
-                <div className="p-3 rounded-xl bg-white shadow-sm w-16 h-16 flex items-center justify-center">
-                  {company.logo ? (
-                    <img 
-                      src={company.logo} 
-                      alt={`${company.name} logo`}
-                      className="w-12 h-12 object-contain"
-                    />
-                  ) : (
-                    <company.icon className={`w-10 h-10 ${company.color}`} />
-                  )}
-                </div>
-                <span className="text-sm font-semibold text-foreground/80 group-hover:text-primary transition-colors">
-                  {company.name}
-                </span>
+                <img 
+                  src={company.logo} 
+                  alt={`${company.name} logo`}
+                  className="w-full h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                />
               </div>
             ))}
           </div>
