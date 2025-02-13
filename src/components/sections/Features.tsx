@@ -6,24 +6,24 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "AI-Generated Tours",
-    description: "Launch tours 90% faster by letting AI build onboarding flows from a simple description."
-  },
-  {
-    title: "Automated Maintenance",
-    description: "Eliminate breakage—our AI tracks UI changes, so tours remain stable."
-  },
-  {
-    title: "Chrome Extension Capture",
-    description: "Streamline your workflow—gather UI elements and screenshots without leaving your browser."
+    title: "AI-Generated Content & Tours",
+    description: "Simply explain your product and desired onboarding flow to our AI agent. We'll transform your vision into engaging, professional tours automatically."
   },
   {
     title: "Checklists & Q&A",
     description: "Drive user engagement—keep new users on track with guided tasks and answers."
   },
   {
-    title: "Pointing & Highlighting",
-    description: "Direct user attention precisely where it's needed, no messy selectors required."
+    title: "Automated Maintenance",
+    description: "Eliminate breakage—our AI tracks UI changes, so tours remain stable."
+  },
+  {
+    title: "Fully Context Aware",
+    description: "Provide autonomous support that understands exactly what your users see and experience, helping them resolve unexpected problems in real-time."
+  },
+  {
+    title: "A True User Copilot",
+    description: "More than just product tours—direct user attention, automate routine tasks, and provide solution engineering for a complete user assistance experience."
   },
   {
     title: "Personalization at Scale",
