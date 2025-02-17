@@ -12,7 +12,7 @@ const Hero = () => {
               Onboard your users at scale
             </span>
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mt-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/90 to-primary/80">
-              - without spending weeks building & maintaining
+              - let AI handle setup & maintenance
             </span>
           </h1>
           
