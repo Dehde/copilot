@@ -6,20 +6,20 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Crisp, Minimal Tours",
-    description: "Start with the essentials. Give new users a short, clear path—no 30-step walkthroughs or clutter."
+    title: "Your users questions, answered.",
+    description: "Realtime & context-aware. Right within the tour."
   },
   {
     title: "Visual UI Guidance",
     description: 'Each step can point to the right place on the screen, so users never wonder, "Where do I click?"'
   },
   {
-    title: "Q&A - AI-based, Realtime, Context-Aware",
-    description: "Let users ask questions mid-tour. Our AI answers exactly what they need, right on the spot."
+    title: "Solution Engineering? Consulting? Let AI handle it",
+    description: "We enable AI with all your context - turning it into a 24/7 expert of your product."
   },
   {
     title: "Instant AI Setup",
-    description: "Describe your product goals, and our AI builds your minimal tours automatically—goodbye lengthy configuration."
+    description: "Describe your product goals, and our AI builds your tours automatically—goodbye lengthy configuration."
   },
   {
     title: "Self-Updating & Future-Proof",
@@ -27,7 +27,7 @@ const features: Feature[] = [
   },
   {
     title: "A Continuous Copilot",
-    description: "Even after onboarding, the AI stays ready to guide, freeing you to focus on higher-level tasks."
+    description: "Even after onboarding, the AI stays ready to guide. Onboarding & Support in one solution."
   }
 ];
 

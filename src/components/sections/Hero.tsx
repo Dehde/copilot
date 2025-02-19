@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
 
           <p className="text-sm text-muted-foreground/80 font-medium">
-            Zero coding. Zero headaches. 90% faster setup.
+            Zero coding. Zero headaches. 90% less work for you.
           </p>
         </div>
       </div>
