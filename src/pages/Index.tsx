@@ -4,8 +4,8 @@ import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/01_Hero";
 import SocialProof from "@/components/sections/02_SocialProof";
 import Features from "@/components/sections/03_Features";
-import SolutionOverview from "@/components/sections/04_SolutionOverview";
-import Stats from "@/components/sections/05_Stats";
+import HowItWorks from "@/components/sections/04_HowItWorks";
+import Benefits from "@/components/sections/05_Benefits";
 // import HowItWorks from "@/components/sections/06_HowItWorks";
 import Integrations from "@/components/sections/06_Integrations";
 import Pricing from "@/components/sections/07_Pricing";
@@ -20,8 +20,8 @@ const Index = () => {
         <Hero />
         <SocialProof />
         <Features />
-        <SolutionOverview />
-        <Stats />
+        <HowItWorks />
+        <Benefits />
         {/* <HowItWorks /> */}
         <Integrations />
         <Pricing />
