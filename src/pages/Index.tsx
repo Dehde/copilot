@@ -7,10 +7,10 @@ import Features from "@/components/sections/03_Features";
 import SolutionOverview from "@/components/sections/04_SolutionOverview";
 import Stats from "@/components/sections/05_Stats";
 // import HowItWorks from "@/components/sections/06_HowItWorks";
-import Integrations from "@/components/sections/07_Integrations";
+import Integrations from "@/components/sections/06_Integrations";
+import Pricing from "@/components/sections/07_Pricing";
 import FAQ from "@/components/sections/08_FAQ";
 import CallToValue from "@/components/sections/09_CallToValue";
-import Pricing from "@/components/sections/10_Pricing";
 
 const Index = () => {
   return (

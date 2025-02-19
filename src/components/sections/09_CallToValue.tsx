@@ -6,7 +6,7 @@ const CallToValue = () => {
   return (
     <section className="section bg-secondary/50">
       <div className="container text-center">
-        <h2 className="heading">Ready to Onboard Users in Hours, Not Months?</h2>
+        <h2 className="heading">Ready to Enable Onboarding of the Next Generation?</h2>
         <p className="subheading">
           Join the growing community of PMs & CS teams slashing setup & maintenance by 90%.
         </p>

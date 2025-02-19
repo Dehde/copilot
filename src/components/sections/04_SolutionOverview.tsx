@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const solutionSteps = [
-  "Provide links & access to your help center & documentation.",
-  "Walk our AI through your product. We'll capture your words & UI elements.",
-  "Together with our AI, create & edit tours. Best practices? Baked-in.",
-  "Our AI reviews all tours - impersonating your users - and proposes changes."
+  "Provide Context to our AI (help center, docs, call recordings)",
+  "Walk our AI through your product",
+  "Let AI create & edit tours",
+  "Let our AI review & iterate over the tour content"
 ];
 
 const SolutionOverview = () => {

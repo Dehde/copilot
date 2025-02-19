@@ -19,10 +19,6 @@ const faqs: FAQ[] = [
   {
     question: "What if my UI changes?",
     answer: "We keep track of element updates automatically—no tour breakages."
-  },
-  {
-    question: "What's in the €500/month plan?",
-    answer: "Unlimited tours, up to 100 onboardings per month, and ongoing AI maintenance."
   }
 ];
 
