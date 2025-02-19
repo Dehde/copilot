@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const solutionSteps = [
-  "Explain your product once to our AI.",
-  "Capture key UI elements via our Chrome Extension.",
-  "Watch our AI automatically create tours, checklists, and highlights.",
-  "Refine only if you want to personalize further—no coding needed."
+  "Provide links & access to your help center & documentation.",
+  "Walk our AI through your product. We'll capture your words & UI elements.",
+  "Together with our AI, create & edit tours. Best practices? Baked-in.",
+  "Our AI reviews all tours - impersonating your users - and proposes changes."
 ];
 
 const SolutionOverview = () => {
