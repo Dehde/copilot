@@ -10,11 +10,11 @@ interface FAQ {
 const faqs: FAQ[] = [
   {
     question: "Is it really just 1 day to launch?",
-    answer: "Absolutely. Our AI automates 90% of the work—just confirm and publish."
+    answer: "Absolutely. Our AI assistance is elaborate and will save you most of the work!."
   },
   {
     question: "Do I need coding skills?",
-    answer: "None at all—PMs and CS teams can handle everything with ease."
+    answer: "Initial integration will require adding 2 lines of code. After that, no coding at all."
   },
   {
     question: "What if my UI changes?",
