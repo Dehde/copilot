@@ -10,12 +10,12 @@ const features: Feature[] = [
     description: "Based on your documentation, our AI proposes & reviews tours, applying all best practices for maximum effectiveness."
   },
   {
-    title: "Users questions: Answered",
-    description: 'Based on the gathered product knowledge. Thus enabling configuration of the most complex software'
+    title: "Users' questions: Answered",
+    description: 'Users can ask questions all throughout the tour. Thus enabling configuration of the most complex software'
   },
   {
     title: "Highlight any element",
-    description: "For an improved onboarding experience of your first time users."
+    description: "For an improved onboarding experience of your first-time users."
   }
 ];
 

@@ -52,7 +52,7 @@ const SocialProof = () => {
 
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-base text-muted-foreground italic">
-              "People think speed and quality are conflicts of interest. The opposite is true. Speed is a prerequisite to quality."
+              "We are now enabling more than 90% of our users to self-onboard. No prior solution was capable of that."
             </p>
             <p className="text-sm text-muted-foreground">
               — Nan Yu, Head of Product at Linear
