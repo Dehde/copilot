@@ -9,15 +9,15 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <h1 className="max-w-4xl mx-auto">
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-              Onboard your users at scale
+              Effective User Onboarding
             </span>
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mt-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/90 to-primary/80">
-              - let AI handle setup & maintenance
+              - AI Enabled Guidance, Consulting & Support
             </span>
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-muted-foreground leading-relaxed">
-            Eliminate endless manual tour building and maintenance. Our AI powers seamless product tours in 1 day, so you can focus on delivering real value.
+           Reduce your CSMs' workload. Self-onboarding that works - even for complex software. More effective guidance than ever before.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 w-full max-w-md mx-auto">
@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
 
           <p className="text-sm text-muted-foreground/80 font-medium">
-            Zero coding. Zero headaches. 90% less work for you.
+            Zero coding. Zero headaches. Onboarding that actually works.
           </p>
         </div>
       </div>

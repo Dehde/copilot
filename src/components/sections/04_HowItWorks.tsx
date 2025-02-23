@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 const solutionSteps = [
   "Provide Context to our AI (help center, docs, call recordings)",
   "Walk our AI through your product",
-  "Let AI create & edit tours",
-  "Let our AI review & iterate over the tour content"
+  "Let AI create, review & edit tours",
+  "Iterate based on user feedback"
 ];
 
 const SolutionOverview = () => {

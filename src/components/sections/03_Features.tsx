@@ -6,28 +6,16 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Your users questions, answered.",
-    description: "Realtime & context-aware. Right within the tour."
+    title: "AI generates & reviews onboarding experiences",
+    description: "Based on your documentation, our AI proposes & reviews tours, applying all best practices for maximum effectiveness."
   },
   {
-    title: "Visual UI Guidance",
-    description: 'Each step can point to the right place on the screen, so users never wonder, "Where do I click?"'
+    title: "Users questions: Answered",
+    description: 'Based on the gathered product knowledge. Thus enabling configuration of the most complex software'
   },
   {
-    title: "Solution Engineering? Consulting? Let AI handle it",
-    description: "We enable AI with all your context - turning it into a 24/7 expert of your product."
-  },
-  {
-    title: "Instant AI Setup",
-    description: "Describe your product goals, and our AI builds your tours automatically—goodbye lengthy configuration."
-  },
-  {
-    title: "Self-Updating & Future-Proof",
-    description: "If your interface changes, our AI updates selectors and steps. No more broken tours or manual fixes."
-  },
-  {
-    title: "A Continuous Copilot",
-    description: "Even after onboarding, the AI stays ready to guide. Onboarding & Support in one solution."
+    title: "Highlight any element",
+    description: "For an improved onboarding experience of your first time users."
   }
 ];
 
