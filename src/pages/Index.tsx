@@ -23,9 +23,9 @@ const Index = () => {
         <HowItWorks />
         <Benefits />
         {/* <HowItWorks /> */}
-        <Integrations />
-        <Pricing />
-        <FAQ />
+        {/* <Integrations /> */}
+        {/* <Pricing /> */}
+        {/* <FAQ /> */}
         <CallToValue />
       </main>
       <Footer />
