@@ -10,7 +10,8 @@
     --background: 0 0% 100%;
     --foreground: 222 47% 11%;
     
-    --primary: 252 84% 74%;
+    /* Changed from purple to green */
+    --primary: 142 76% 36%;  /* This is the main green color */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 210 40% 96.1%;
@@ -19,7 +20,8 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
     
-    --accent: 252 84% 74%;
+    /* Changed accent to match primary */
+    --accent: 142 76% 36%;
     --accent-foreground: 222 47% 11%;
     
     --radius: 0.5rem;
