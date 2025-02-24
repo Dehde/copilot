@@ -9,11 +9,11 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <h1 className="max-w-4xl mx-auto">
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-              Effective User Onboarding
+              Scalable User Onboarding That Works
             </span>
-            <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mt-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/90 to-primary/80">
-              - AI Enabled Guidance Consulting & Support
-            </span>
+            {/* <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mt-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/90 to-primary/80">
+              
+            </span> */}
           </h1>
           
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-muted-foreground leading-relaxed">
