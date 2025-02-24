@@ -29,8 +29,14 @@ const SolutionOverview = () => {
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </div>
-          <div className="bg-white rounded-lg p-4">
-            <div className="aspect-video bg-muted rounded-lg"></div>
+          <div className="bg-white rounded-lg p-4 shadow-lg">
+            <div className="aspect-video rounded-lg overflow-hidden">
+              <img 
+                src="https://res.cloudinary.com/drcjs5jlw/image/upload/v1740405310/ezgif-6a1d667292d286_j0zifh.gif"
+                alt="Product demonstration"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
