@@ -9,10 +9,10 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <h1 className="max-w-4xl mx-auto">
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-              User Onboarding that works
+              Scalable User Onboarding
             </span>
             <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mt-4 bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/90 to-primary/80">
-              - even for complext softeware products
+              - made for complex softeware
             </span>
           </h1>
           
